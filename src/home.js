@@ -130,6 +130,8 @@ export default function renderHome(app) {
   }
  
   loadAllSections();
+  return articleContainer;
 }
+ 
  
  
