@@ -6,7 +6,7 @@ export default defineConfig({
       entry: 'src/main.js',
       name: 'MyBundle',
       fileName: () => 'bundle.js',
-      formats: ['iife'], // Samler til én fil der virker i browseren
+      formats: ['iife'],
     }
   }
 });
